@@ -42,7 +42,12 @@ function operar(valor){
 }
 
 function raiz(){
-    num1 = Math.sqrt(num1);
+    //num1 = Math.sqrt(num1);
+    x= 1.0;
+    for(k = 1; k < 10; k++){
+        x = (x + num1/x) / 2;
+    }
+    num1 = x;
     refrescar();
     num2 = parseFloat(num1);
     num1 = 0;
