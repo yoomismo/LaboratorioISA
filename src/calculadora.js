@@ -1,10 +1,13 @@
-let a = 5;
-let b = 15;
-
-const suma = () => {
-
-    const resultado = suma(a,b)
-    console.assert(resultado === a+b, "ha fallado")
+const suma = (a,b) => {
+    return a+b;
 }
 
-suma();
+const prueba_suma = () => {
+    const a = 5;
+    const b = 15;
+    const resultado = suma(a,b)
+    const esperado = 20;
+    console.assert(resultado === esperado, "ha fallado")
+}
+
+prueba_suma();
