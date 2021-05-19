@@ -11,3 +11,4 @@ const prueba_suma = () => {
 }
 
 prueba_suma();
+const hola;
