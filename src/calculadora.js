@@ -11,4 +11,3 @@ const prueba_suma = () => {
 }
 
 prueba_suma();
-console.log("pepito");
