@@ -1,7 +1,11 @@
-const suma = (a,b) => {
-    return a+b;
-}
+function suma(a, b) {
+    return a + b;
+  }
+  
+  module.exports = suma;
 
+
+  /*
 const prueba_suma = () => {
     const a = 5;
     const b = 15;
@@ -12,4 +16,5 @@ const prueba_suma = () => {
 
 //resta juan
 
-prueba_suma();
+prueba_suma();*/
+
